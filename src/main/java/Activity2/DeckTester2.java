@@ -10,5 +10,10 @@ public class DeckTester2 {
 	 */
 	public static void main(String[] args) {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+		String[] ranks = {"Jack", "Queen", "King"};
+		String[] suits = {"Hearts", "Spades"};
+		int[] values = {11,12,13};
+		Deck2 d1 = new Deck2(ranks, suits, values);
+		System.out.println(d1);
 	}
 }
